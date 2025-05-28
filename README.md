@@ -25,4 +25,4 @@ A Google Weather-inspired web app with:
 - Weather Icons
 
 ## Screenshot
-![Screenshot](screenshot.png)
+![Screenshot](image.png)
