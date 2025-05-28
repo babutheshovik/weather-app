@@ -1,0 +1,120 @@
+/* Google Weather Inspired Styles */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f1f3f4;
+  margin: 0;
+  padding: 20px;
+  color: #202124;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+#city-input {
+  padding: 10px 15px;
+  border: 1px solid #dadce0;
+  border-radius: 24px;
+  width: 200px;
+  outline: none;
+}
+
+#search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #5f6368;
+  margin-left: -35px;
+}
+
+.current-weather {
+  background: linear-gradient(135deg, #4285f4, #34a853);
+  color: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.location-date h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#date {
+  margin: 5px 0 0;
+  opacity: 0.8;
+}
+
+.weather-main {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#weather-icon {
+  font-size: 64px;
+  margin-right: 20px;
+}
+
+#temp {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.weather-details p {
+  margin: 8px 0;
+}
+
+.forecast h3 {
+  color: #5f6368;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#forecast-list {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.forecast-day {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  min-width: 100px;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+.forecast-day p {
+  margin: 5px 0;
+}
+
+.forecast-day i {
+  font-size: 24px;
+  margin: 10px 0;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .weather-main {
+    flex-direction: column;
+    text-align: center;
+  }
+  #weather-icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
